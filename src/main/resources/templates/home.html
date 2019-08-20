@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>HOME</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/css/uikit.min.css" />  
+        
+    </head>
+    <body style="background-image:url('https://www.elpipl.com/wp-content/uploads/2017/05/100-year-old-house-renovation.jpg');
+    	background-repeat: no-repeat; background-position: center; background-size: cover;">
+    	<div id="container">	
+    		
+    		<div class="btn-quit">
+        	<a href="/">
+        		<img src="https://media.rs-online.com/t_large/RD463783-01.jpg" height="100" width="100" alt="quit">
+        	</a>	
+			</div>
+    		
+			<div class="btn-door">
+				<a class="button" th:href="@{'/door'}">DOOR</a>
+			</div>        
+	        
+	        <div class="btn-exit">
+            	<a class="button" th:href="@{'/lose'}">EXIT</a>
+			</div> 
+	    </div>	
+    	
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit-icons.min.js"></script>
+        <style>	
+        #container {
+			    width:100%;
+			    text-align:center;
+			
+			}
+			.btn-door .button {
+				background-color: #FF0000;
+				color: white;
+	  			padding: 8px 10px;
+			    float:left;
+			    margin-top: 490px;
+				margin-left: 695px;
+			}
+			
+			.btn-exit .button {
+				background-color: #FF0000;
+				color: white;
+	  			padding: 8px 10px;
+			    float:right;
+			    margin-top: 620px;
+				margin-right: 709px; 
+			}			
+        </style>
+    </body>
+</html>
